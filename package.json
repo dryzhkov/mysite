@@ -1,0 +1,8 @@
+{
+  "name": "dimaryz",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "author": "Dmitry Ryzhkov",
+  "license": "MIT"
+}
