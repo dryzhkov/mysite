@@ -9,7 +9,7 @@
     <meta name="author" content="Dmitry Ryzhkov">
     <link rel="icon" href="favicon.ico">
 
-    <title>Dmitry Ryzhkov</title>
+    <title>Dmitry Ryzhkov - dimaryz.com</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -22,93 +22,7 @@
     <![endif]-->
   </head>
   <body>
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-dark navbar-fixed-top">
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#skillz">Skills</a></li>
-          <li><a href="#xp">Experience</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </nav>
-
-    <div id="mainarea" class="container-fluid">
-      <h1>Dmitry Ryzhkov</h1>
-      <p>
-        Software Engineer
-      </p>
-    </div> <!-- /container -->
-
-    <div id="skillz" class="container-fluid">
-      <h1>Skills</h1>
-      <div style="overflow-x:auto;">
-        <h2>Development</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>NodeJS</li>
-          <li>Angular</li>
-          <li>React</li>
-          <li>C#</li>
-          <li>Java</li>
-          <li>GoLang</li>
-          <li>PHP</li>
-          <li>C++</li>
-        </ul>
-        <h2>IDE / Tools</h2>
-        <ul>
-          <li>Bash</li>
-          <li>VSCode</li>
-          <li>Visual Studio</li>
-          <li>Android Studio</li>
-          <li>Git</li>
-          <li>Grunt</li>
-          <li>Gulp</li>
-          <li>Webpack</li>
-        </ul>
-        <h2>Operating Systems</h2>
-        <ul>
-          <li>Linux</li>
-          <li>MacOS</li>
-          <li>Windows</li>
-        </ul>
-      </div>
-    </div>
-    <div id="xp" class="container-fluid">
-      <div class="timeline">
-        <div class="record left">
-          <div class="content">
-            <h2>Microsoft ~ Software Engineer</h2>
-            <h3>2013 - Present</h3>
-          </div>
-        </div>
-        <div class="record right">
-          <div class="content">
-            <h2>Incohesive Mobile ~ Cofounder / SWE</h2>
-            <h3>2015 - 2017</h3>
-          </div>
-        </div>
-        <div class="record left">
-          <div class="content">
-            <h2>EMC Corporation ~ Software Quality Engineer.</h2>
-            <h3>2012 - 2013</h3>
-          </div>
-        </div>
-        <div class="record right">
-          <div class="content">
-            <h2>ATGStores.com ~ Software Engineer.</h2>
-            <h3>2010 - 2012</h3>
-          </div>
-        </div>
-        <div class="record left">
-          <div class="content">
-            <h2>University of Washington ~ Computer Science (B.S.)</h2>
-            <h3>2008 ~ 2011</h3>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="root"></div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -116,5 +30,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="dist/bundle.js"></script>
   </body>
 </html>
