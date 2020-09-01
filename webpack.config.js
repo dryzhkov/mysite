@@ -6,7 +6,7 @@ module.exports = {
   devtool: PROD ? "" : "source-map",
   entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, "public/js"),
+    path: path.join(__dirname, "dist/js"),
     filename: PROD ? "bundle.min.js" : "bundle.js",
   },
   resolve: {
